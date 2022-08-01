@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+  .card__paragraphs {
+    max-width: 720px;
+    width: calc(100% - 16px*2);
+    margin: auto;
+  }
+}

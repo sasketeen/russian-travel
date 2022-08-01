@@ -1,0 +1,13 @@
+.card__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+}
+@media screen and (max-width: 767px) {
+  .card__website {
+    max-width: 720px;
+    width: calc(100% - 16px*2);
+    margin: auto;
+  }
+}
