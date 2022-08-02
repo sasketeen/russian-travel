@@ -1,6 +1,6 @@
 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fill,460px 484px);
+  grid-template-columns: 460px 484px;
   gap: 48px 40px;
   max-width: calc(100% - 148px*2);
   width: 100%;
@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 1279px) {
   .card {
-    grid-template-columns: repeat(auto-fill,minmax(440px, 460px) minmax(456px, 484px));
+    grid-template-columns: minmax(430px, 460px) minmax(446px, 484px);
     max-width: 984px;
     width: calc(100% - 48px*2);
     gap: 48px 32px;
@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 1023px) {
   .card {
-    grid-template-columns: repeat(auto-fill,minmax(340px, 440px) minmax(352px, 456px));
+    grid-template-columns: minmax(330px, 440px) minmax(342px, 456px);
     max-width: 928px;
     width: calc(100% - 24px*2);
     gap: 48px 28px;
@@ -33,7 +33,7 @@
     grid-template-columns: 1fr;
     max-width: 720px;
     width: 100%;
-    grid-gap: 12px;
+    gap: 32px;
   }
   .card:not(:last-of-type) {
     margin-bottom: 50px;

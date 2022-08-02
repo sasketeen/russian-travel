@@ -8,6 +8,9 @@
   margin-bottom: 26px;
 }
 @media screen and (max-width: 1023px) {
+  .card__paragraph {
+    font-size: 16px;
+  }
   .card__paragraph:not(:last-of-type) {
     margin-bottom: 25px;
   }
